@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="riyadh-real-estate",
+    version="1.0.0",
+    description="منصة تحليلية عقارية لمدينة الرياض - Real Estate Analytics Platform for Riyadh",
+    author="khaliiid501",
+    packages=find_packages(),
+    install_requires=[
+        "pandas>=2.0.0",
+        "numpy>=1.24.0",
+        "scikit-learn>=1.3.0",
+        "matplotlib>=3.7.0",
+        "seaborn>=0.12.0",
+    ],
+    python_requires=">=3.8",
+)
